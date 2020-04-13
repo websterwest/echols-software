@@ -1,0 +1,84 @@
+{
+  "store_name": "Echols Software",
+  "store_slug": "react-stripe-store",
+  "api_key": "Your Stripe Public Key Here",
+  "colors": {
+    "primary": {
+      "main": "#003b6f",
+      "dark": "#1d1d1d",
+      "contrastText": "#FFF"
+    },
+    "secondary": {
+      "main": "#ff5100"
+    }
+  },
+  "products": [
+    {
+      "name": "Laptop",
+      "url": "computer",
+      "stripe_id": "Your Stripe Product ID here",
+      "description": "Computer!",
+      "photos": ["blackComputer.jpg", "bedComputer.jpg"],
+      "details": [
+        "Perfect computer for students",
+        "Great for developers",
+        "Great for software engineers"
+      ],
+      "variants": [
+        {
+          "name": "Macbook Pro",
+          "options": [{ "label": "Space Grey" }]
+        }
+      ]
+    },
+    {
+      "name": "VR Headset",
+      "url": "vr",
+      "stripe_id": "Your Stripe Procuct ID Here",
+      "description": "Awesome VR Headset!",
+      "photos": ["vrHeadset.jpg", "purpleVR.jpg"],
+      "details": [
+        "Perfect VR Headset",
+        "Directly compatible with Apple's Macbook Pro"
+      ],
+      "variants": [
+        {
+          "name": "HTC Vive",
+          "options": [{ "label": "Black" }]
+        }
+      ]
+    },
+    {
+      "name": "Alienware Aurora R9",
+      "url": "reverseComputer",
+      "stripe_id": "Stripe Product ID Again",
+      "description": "Even Better Computer",
+      "photos": ["bedComputer.jpg", "blackComputer.jpg"],
+      "details": ["Even Better Computer! Than The First One"],
+      "variants": [
+        {
+          "name": "Color",
+          "options": [{ "label": "Space Grey" }]
+        }
+      ]
+    },
+    {
+      "name": "HTC VIVE Pro Virtual Reality System",
+      "url": "reverseVr",
+      "stripe_id": "Oh Look Another Stripe Product ID",
+      "description": "The Coolest VR Headset ever!",
+      "photos": ["purpleVR.jpg", "vrHeadset.jpg"],
+      "details": ["This Headset Is Cooler Than Yours!"],
+      "variants": [
+        {
+          "name": "Size",
+          "options": [
+            { "label": "Small" },
+            { "label": "Medium" },
+            { "label": "Large" }
+          ]
+        }
+      ]
+    }
+  ]
+}
